@@ -29,6 +29,7 @@ BOARD_HAS_MTK_HARDWARE := true
 TARGET_IS_64_BIT := true
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/zImage
 TARGET_PREBUILT_RECOVERY_KERNEL := $(LOCAL_PATH)/prebuilt/zImage
+BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 # buildvariant=user
 BOARD_KERNEL_BASE := 0x40078000                                                
 BOARD_KERNEL_PAGESIZE := 2048                                                  
